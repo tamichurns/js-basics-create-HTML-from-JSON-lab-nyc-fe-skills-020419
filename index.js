@@ -29,6 +29,12 @@ document.addEventListener("DOMContentLoaded", (e) => {
     
     let posterImg = document.getElementById('poster')
     posterImg.src = data.poster 
+    
+    let audienceScoreDiv = document.getElementById('audienceScore')
+    audienceScoreDiv.innerHTML = data.audienceScore
+    
+    let audienceScoreDiv = document.getElementById('audienceScore')
+    audienceScoreDiv.innerHTML = data.audienceScore
   }
   
   //add the event addEventListener
