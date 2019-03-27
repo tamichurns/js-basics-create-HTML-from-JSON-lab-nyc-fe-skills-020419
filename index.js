@@ -16,6 +16,12 @@ document.addEventListener("DOMContentLoaded", (e) => {
     let title = data.title
     let titleDiv = document.getElementById('title')
     titleDiv.innerHTML = title
+    let directorDiv = document.getElementById('director')
+    directorDiv.innerHTML = data.director
+    let genreDiv = document.getElementById('genre')
+    genreDiv.innerHTML = data.genre
+    let filmRatingDiv = document.getElementById('filmRating')
+    filmRatingDiv.innerHTML = data.filmRating
   }
   
   //add the event addEventListener
