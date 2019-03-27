@@ -14,6 +14,8 @@ document.addEventListener("DOMContentloaded", (e) => {
   function onTitanic() {
     let data = movies.Titanic
     let title = data.title
+    let titleDiv = document.getElementById('title')
+    titleDiv.innerHTML = title
   }
   
   //add the event addEventListener
