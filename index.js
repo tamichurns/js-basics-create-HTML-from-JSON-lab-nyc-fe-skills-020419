@@ -12,7 +12,8 @@ document.addEventListener("DOMContentloaded", (e) => {
   
   //
   function onTitanic() {
-    let data = movies.Titanic 
+    let data = movies.Titanic
+    let 
   }
   
   //add the event addEventListener
