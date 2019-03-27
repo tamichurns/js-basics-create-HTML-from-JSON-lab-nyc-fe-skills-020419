@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   
   //add the event addEventListener
   titanicButton.addEventListener('click', () => console.log(movies))
-  terminatorButtonButton.addEventListener('click', () => console.log('T2'))
+  terminatorButton.addEventListener('click', () => console.log('T2'))
   
   
 });
