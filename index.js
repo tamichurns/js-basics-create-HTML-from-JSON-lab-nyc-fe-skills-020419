@@ -22,5 +22,4 @@ document.addEventListener("DOMContentLoaded", (e) => {
   titanicButton.addEventListener('click', onTitanic)
   terminatorButton.addEventListener('click', () => console.log('T2'))
   
-  
 });
