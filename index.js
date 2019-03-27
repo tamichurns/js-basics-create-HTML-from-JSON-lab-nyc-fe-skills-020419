@@ -13,7 +13,7 @@ document.addEventListener("DOMContentloaded", (e) => {
   //
   function onTitanic() {
     let data = movies.Titanic
-    let 
+    let title = data.title
   }
   
   //add the event addEventListener
