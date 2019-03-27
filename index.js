@@ -35,7 +35,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
     
     let descriptionDiv = document.getElementById('description')
     descriptionDiv.innerHTML = data.description
-    
+   
+    let castDiv = document.getElementById('cast')
+    for (let castMember of data.cast) {
+      castDiv.innerHTML = "<li>" + castMember.role
+    }
     
   }
   
