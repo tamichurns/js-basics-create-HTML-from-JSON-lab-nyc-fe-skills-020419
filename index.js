@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     let castDiv = document.getElementById('cast')
     let startingString = ''
     for (let castMember of data.cast) {
-      castDiv.innerHTML = "<li>" + castMember.role + ": " + castMember.actor + "</li>"
+      startingString += "<li>" + castMember.role + ": " + castMember.actor + "</li>"
     }
     
     castDiv.innerHTML = startingString
