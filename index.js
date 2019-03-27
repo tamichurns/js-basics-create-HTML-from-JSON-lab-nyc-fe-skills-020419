@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     let audienceScoreDiv = document.getElementById('audienceScore')
     audienceScoreDiv.innerHTML = data.audienceScore
     
-    let audienceScoreDiv = document.getElementById('audienceScore')
-    audienceScoreDiv.innerHTML = data.audienceScore
+    let descriptionDiv = document.getElementById('description')
+    descriptionDiv.innerHTML = data.description
   }
   
   //add the event addEventListener
