@@ -49,7 +49,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     for (let review of data.reviews) {
       startingString += "<li>" + review.username + ": " + review.content + "</li>"
     }
-     
+    
+    reviewsDiv.innerHTML = startingString
   }
   
   //add the event addEventListener
