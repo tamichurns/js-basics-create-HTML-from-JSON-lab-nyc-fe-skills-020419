@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", (e) => {
+//document.addEventListener("DOMContentLoaded", (e) => {
   // invoking a function here will make sure it happens on page load
   // your code here
   
@@ -59,4 +59,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
   titanicButton.addEventListener('click', () => onMovieChange('Titanic'))
   terminatorButton.addEventListener('click', () => onMovieChange('Terminator 2'))
   
-});
+  onMovieChange('Titanic')
+  
+//});
