@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   
   //
   function onTitanic() {
-    let data = movies[movie]
+    let data = movies.Titanic
     let title = data.title
     
     let titleDiv = document.getElementById('title')
