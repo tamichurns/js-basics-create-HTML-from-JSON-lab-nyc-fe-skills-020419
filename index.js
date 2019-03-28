@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     
     castDiv.innerHTML = startingString 
     
-  }
+    
     
     const reviewsDiv = document.getElementById('revews')
     startingString = ''
