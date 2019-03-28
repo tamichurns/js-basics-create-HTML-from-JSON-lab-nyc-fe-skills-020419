@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   
   //
   function onTitanic() {
-    let data = movies.Titanic
+    let data = movies[movie]
     let title = data.title
     
     let titleDiv = document.getElementById('title')
@@ -53,6 +53,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     reviewsDiv.innerHTML = startingString
   
   }
+  
   
   //add the event addEventListener
   titanicButton.addEventListener('click', onTitanic)
