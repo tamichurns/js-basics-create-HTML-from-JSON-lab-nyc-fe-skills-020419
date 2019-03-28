@@ -44,6 +44,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     
     castDiv.innerHTML = startingString 
     
+  }
+    
     const reviewsDiv = document.getElementById('revews')
     startingString = ''
     for (let review of data.reviews) {
@@ -51,6 +53,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     }
     
     reviewsDiv.innerHTML = startingString
+  
   }
   
   //add the event addEventListener
